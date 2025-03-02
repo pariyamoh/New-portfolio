@@ -16,7 +16,8 @@ font-weight: normal;
     background-color: rgb(182, 235, 176);
     margin: 120px 50px;
     border-radius: 6px;
-    padding: 100px 200px;
+    padding: 100px 200px 20px 200px;
+    margin-bottom: 12px;
 }
 .hero h1{
     font-family: "Poppins", serif;
@@ -28,4 +29,28 @@ font-weight: normal;
     border-radius: 4px;
     color: aliceblue;
     font-size: 17px;
+}
+.p1{
+    text-align: center;
+}
+.pic-yoga{
+    width: 600px;
+    height:350px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.pic-wine {
+    width: 350px;
+    height: 600px;
+    display: flex;
+        justify-content: space-evenly;
+            text-align: center;
+}
+.btn-yoga{
+    background: rgb(4, 80, 44);
+        border-radius: 4px;
+        color: aliceblue;
+        font-size: 17px;
 }
