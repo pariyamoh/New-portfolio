@@ -1,7 +1,30 @@
-body{
-    background-color: blueviolet;
 
+h1,h2,h3,h4{
+    color: rgb(5, 23, 78);
 }
-h1{
-    color: white;
+.hero h1{
+    font-size: 55px;
+    text-align: center;
+}
+.hero h5{
+font-size: 15px;
+margin:0px;
+font-weight: normal;
+}
+.hero{
+    text-align: center;
+    background-color: rgb(182, 235, 176);
+    margin: 120px 50px;
+    border-radius: 6px;
+    padding: 100px 200px;
+}
+.hero h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.btn-first{
+    background:  rgb(4, 80, 44);
+    border-radius: 4px;
+    color: aliceblue;
+    font-size: 17px;
 }
