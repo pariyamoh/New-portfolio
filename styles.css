@@ -10,11 +10,13 @@
     font-family: "Poppins", serif;
     font-weight: 450;
     font-style: normal;
+        display: block;
 }
    .hero h5{
     font-size: 15px;
-    margin:0px;
     font-weight: normal;
+    text-align: center;
+    display: block;
 }
 .hero{
     text-align: center;
@@ -23,6 +25,7 @@
     border-radius: 6px;
     padding: 100px 200px 70px 200px;
     margin-bottom: 12px;
+    display: block;
 }
 .container{
     margin-top: 50px;
@@ -53,7 +56,6 @@
     color: aliceblue;
     font-size: 17px;
     padding: 12px 16px;
-    padding: 12px 16px;
 }
 
 .text1{
@@ -74,11 +76,23 @@ nav li {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 0;
+    
+}
+nav a :hover, 
+nav li.active a {
+    color: var(--branding-color)
 }
 a{
 text-decoration: none;
 color: rgb(101, 101, 102);
+transition: all ease-in-out 150ms;
+
 }
+
 .active{
     color: var(--branding-color);
+}
+.smallpic{
+       height: 60px;
+       padding-bottom: 22px;
 }
