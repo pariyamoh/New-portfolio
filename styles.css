@@ -1,7 +1,7 @@
 
 
 :root {
-    --branding-color: #a861ef;
+    --branding-color: #f8cdb3;
     --secondary-color: #f9f7fe;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
@@ -14,7 +14,7 @@
     font-style: normal;
         display: block;
 }
-   .hero h5{
+   .hero h5,h2{
     font-size: 15px;
     font-weight: normal;
     text-align: center;
@@ -22,7 +22,7 @@
 }
 .hero{
     text-align: center;
-    background-color: rgb(218, 224, 245);
+    background-color: var(--branding-color);
     margin: 30px 50px;
     border-radius: 6px;
     padding: 100px 200px 70px 200px;
@@ -44,7 +44,7 @@
     width: 300px;
     height:450px;
     border-radius: 6px;
-    
+margin-left: 90px;    
 }
 .pic-gir {
     width: 300px;
@@ -53,16 +53,17 @@
     border-radius: 6px;
 }
 .btn-branding {
-    background: rgb(28, 3, 212);
+    background: rgb(104, 47, 6);
     border-radius: 4px;
-    color: aliceblue;
-    font-size: 17px;
+    color:var(--secondary-color);
+    font-size: 12px;
     padding: 12px 16px;
 }
 
 .text1{
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
+    color: rgb(105, 105, 105);
 }
 .logo{
 max-width: 150px; 
@@ -92,10 +93,12 @@ transition: all ease-in-out 150ms;
 .active{
     color: var(--branding-color);
 }
+
 .smallpic{
        height: 60px;
        padding-bottom: 22px;
 }
+
 .email-link {
     color: rgb(56, 56, 56);
     text-align: center;
@@ -103,20 +106,36 @@ transition: all ease-in-out 150ms;
     font-size: 22px;
     margin: 50px 0px 25px 0px;
 }
+
 .social a{
     text-align:  center;
-    margin: 0 18px;
-    color:var(--branding-color);
-    background-color: rgb(254, 238, 255);
+    margin: 15px 18px 22px 0;
+    color:rgb(104, 47, 6);
+    background-color: rgb(246, 237, 198);
     font-size: 20px;
     border-radius: 50%;
     padding:8px 12px ;
+
 }
 footer .social a:hover{
     color: black;
     background-color: var(--branding-color);
-} 
+}
+
 .contact-box{
-background-color: var(--secondary-color);
+background-color:var(--branding-color);
 border-radius: 8px;
+padding: 30px;
+}
+
+.btn-contact{    
+background: rgb(104, 47, 6);     
+border-radius: 4px;
+color: var(--secondary-color);
+font-size: 17px;
+padding: 12px 22px;
+margin: 25px;
+}
+h4{
+    font-family: var(--default-font-family);
 }
