@@ -1,5 +1,3 @@
-
-
 :root {
     --branding-color: #f8cdb3;
     --secondary-color: #f9f7fe;
@@ -7,7 +5,7 @@
     --default-font-family: "Poppins", sans-serif;
     --fantasy-font-family: "Lilita One";
 }
-.hero h1{
+h1{
     font-size: 55px;
     text-align: center;
     font-family: var(--fantasy-font-family);
@@ -15,14 +13,13 @@
     font-style: normal;
     display: block;
 }
-
 h2 {
-        font-weight: normal;
+    font-weight: normal;
     font-size: 42px;
     text-align: center;
     font-family: var(--fantasy-font-family);
-        font-weight: 450;
-text-align: center;
+    font-weight: 450;
+    text-align: center;
     display: block;}
 .hero{
     text-align: center;
@@ -37,24 +34,25 @@ text-align: center;
     margin-top: 50px;
 }
 
-.pic-yoga{
-    width: 300px;
-    height:450px;
+.pic-vodka{
+    margin-bottom: 60px; 
     border-radius: 6px;
-margin-left: 90px;    
+    border-style:inset;
 }
-.pic-gir {
-    width: 300px;
-    height: 400px;
-    margin-left: 85px;
-    border-radius: 6px;
+ 
+.pic-wine{
+    margin-top: 20px;
+        border-radius: 6px;
+            border-style: inset;
 }
+
 .btn-branding {
-    background: rgb(104, 47, 6);
+    background: rgb(225, 134, 48);
     border-radius: 4px;
     color:var(--secondary-color);
     font-size: 16px;
     padding: 12px 16px;
+    color: black;
 }
 
 .text1{
@@ -76,7 +74,6 @@ nav li {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 0;
-    
 }
 nav a :hover, 
 nav li.active a {
@@ -84,7 +81,7 @@ nav li.active a {
 }
 a{
 text-decoration: none;
-color: rgb(101, 101, 102);
+color: rgb(3, 3, 78);
 transition: all ease-in-out 150ms;
 }
 .active{
@@ -107,7 +104,7 @@ transition: all ease-in-out 150ms;
 .social a{
     text-align:  center;
     margin: 15px 18px 22px 0;
-    color:rgb(104, 47, 6);
+    color:#ff7e5f;
     background-color: rgb(246, 237, 198);
     font-size: 20px;
     border-radius: 50%;
@@ -120,19 +117,93 @@ footer .social a:hover{
 }
 
 .contact-box{
-background-color:var(--branding-color);
 border-radius: 8px;
-padding: 30px;
+padding: 22px;
+background: linear-gradient(to right, #ff7e5f, #ffe4cf);
+    color: rgb(0, 0, 0);
 }
 
 .btn-contact{    
-background: rgb(104, 47, 6);     
+background: rgb(225, 134, 48);     
 border-radius: 4px;
 color: var(--secondary-color);
 font-size: 17px;
 padding: 12px 22px;
 margin: 25px;
+color: black;
 }
 h4{
     font-family: var(--fantasy-font-family);
 }
+.p-about{
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.main{
+     background: linear-gradient(to left, #ff7e5f, #ffe4cf);;
+}
+.header{
+    font-size: 20px;
+    margin-top: 50px;
+    color: rgb(3, 3, 78);
+    font-family: var(--default-font-family);}
+    
+.p-contact{
+    padding: 15px 0 0 0;
+}
+.social-add h2{
+    font-size: 22px;
+    text-align: center;
+}
+.social-add{
+    text-align: center;
+    margin:0 50px 0 50px;
+}
+.social-add h1{
+    margin: 50px 0 45px 0;;
+}
+.projects h2{
+    font-size: 23px;
+}
+.projects h3{
+    font-size: 12px;
+    text-align: center;
+}
+.pic-vodka-project{
+    border-radius: 6px;
+    border-style: inset;
+    height: 480px;
+    margin: 30px 0 30px 25px;
+}
+
+.pic-grape-project {
+    border-radius: 6px;
+    border-style: inset;
+    height: 480px;
+    margin: 30px 10px 30px 2px;
+    width: 600px;
+}
+
+.pic-wine-project {
+    border-radius: 6px;
+    border-style: inset;
+    height: 400px;
+    margin: 60px 0 30px 25px;    width: 625px;
+}
+
+.pic-redwine-project {
+    border-radius: 6px;
+    border-style: inset;
+    height: 400px;
+    margin: 60px 0px 30px 2px;
+}
+.btn-project{
+        background: rgb(225, 134, 48);
+        border-radius: 9px;
+        color: var(--secondary-color);
+        padding: 12px 22px;
+        color: black;
+        margin:15px 0px 30px 280px;
+    }
